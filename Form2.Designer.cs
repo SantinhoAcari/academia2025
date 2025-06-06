@@ -33,11 +33,16 @@
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1284, 776);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Location = new Point(200, 0);
+            Margin = new Padding(4, 4, 4, 4);
+            MaximizeBox = false;
+            MaximumSize = new Size(1621, 1065);
             Name = "Form2";
+            StartPosition = FormStartPosition.Manual;
             Text = "Cadastrar Clientes";
             ResumeLayout(false);
         }
