@@ -6,11 +6,12 @@ namespace Academia2025.Models
     public class Historico
     {
         [Key]
-        public short IdHistorico { get; set; }
+        public int IdHistorico { get; set; }
 
         [Required]
-        [ForeignKey("Membro")]
-        public short FkIdMembro { get; set; }
+        public int FkIdMembro { get; set; }
+
+        [ForeignKey("FkIdMembro")]
         public required Membro Membro { get; set; }
 
         [Required]
@@ -24,7 +25,9 @@ namespace Academia2025.Models
         public int TempoExecucao { get; set; }
 
         [Required]
-        [ForeignKey("Funcionario")]
+        public int FkIdFuncionario { get; set; }
+
+        [ForeignKey("FkIdFuncionario")]
         public required Funcionario Funcionario { get; set; }
     }
 }

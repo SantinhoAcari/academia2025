@@ -6,18 +6,18 @@ namespace Academia2025.Models
     public class Treino
     {
         [Key]
-        public short IdTreino { get; set; }
+        public int IdTreino { get; set; }
 
         [Required]
-        [ForeignKey("Membro")]
-        public short FkIdMembro { get; set; }
+        public int FkIdMembro { get; set; }
+
+        [ForeignKey(nameof(FkIdMembro))]
         public required Membro Membro { get; set; }
 
         [Required]
         [StringLength(50)]
         public required string Tipo { get; set; }
 
-        [Required]
         [StringLength(200)]
         public string? Descricao { get; set; }
 

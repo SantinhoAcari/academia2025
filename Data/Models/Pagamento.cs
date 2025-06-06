@@ -6,11 +6,12 @@ namespace Academia2025.Models
     public class Pagamento
     {
         [Key]
-        public short IdPagamento { get; set; }
+        public int IdPagamento { get; set; }
 
         [Required]
-        [ForeignKey("Membro")]
-        public short FkIdMembro { get; set; }
+        public int FkIdMembro { get; set; }
+
+        [ForeignKey(nameof(FkIdMembro))]
         public required Membro Membro { get; set; }
 
         [Required]
@@ -22,6 +23,6 @@ namespace Academia2025.Models
 
         [Required]
         [StringLength(20)]
-        public required string StatusPagamento { get; set; } 
+        public required string StatusPagamento { get; set; }
     }
 }
