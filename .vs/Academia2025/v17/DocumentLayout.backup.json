@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LUAN\\Projeto A3 - Modelagem e Programa\u00E7\u00E3o\\academia2025\\",
+  "WorkspaceRootPath": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|c:\\luan\\projeto a3 - modelagem e programa\u00E7\u00E3o\\academia2025\\registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|c:\\users\\santo\\downloads\\a3\\academia2025\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|c:\\users\\santo\\downloads\\a3\\academia2025\\registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|solutionrelative:registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|c:\\luan\\projeto a3 - modelagem e programa\u00E7\u00E3o\\academia2025\\registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|c:\\users\\santo\\downloads\\a3\\academia2025\\registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{546DDA63-A5F7-4691-919E-829853F4CD19}|Academia2025.csproj|solutionrelative:registropagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +22,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\Form1.cs [Projeto]*",
+              "RelativeToolTip": "Form1.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:09:49.731Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegistroPagamento.cs",
-              "DocumentMoniker": "C:\\LUAN\\Projeto A3 - Modelagem e Programa\u00E7\u00E3o\\academia2025\\RegistroPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\RegistroPagamento.cs",
               "RelativeDocumentMoniker": "RegistroPagamento.cs",
-              "ToolTip": "C:\\LUAN\\Projeto A3 - Modelagem e Programa\u00E7\u00E3o\\academia2025\\RegistroPagamento.cs",
+              "ToolTip": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\RegistroPagamento.cs",
               "RelativeToolTip": "RegistroPagamento.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RegistroPagamento.cs [Projeto]",
-              "DocumentMoniker": "C:\\LUAN\\Projeto A3 - Modelagem e Programa\u00E7\u00E3o\\academia2025\\RegistroPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\RegistroPagamento.cs",
               "RelativeDocumentMoniker": "RegistroPagamento.cs",
-              "ToolTip": "C:\\LUAN\\Projeto A3 - Modelagem e Programa\u00E7\u00E3o\\academia2025\\RegistroPagamento.cs [Projeto]",
+              "ToolTip": "C:\\Users\\santo\\Downloads\\a3\\academia2025\\RegistroPagamento.cs [Projeto]",
               "RelativeToolTip": "RegistroPagamento.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T01:06:47.154Z",
