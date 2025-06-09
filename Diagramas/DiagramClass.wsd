@@ -1,0 +1,124 @@
+@startuml ClassesAcademia
+
+left to right direction
+
+class Pessoas {
+    - nome: String
+    - cpf: String
+    - endereco: String
+    - telefone: String
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Funcionarios {
+    - Cargo: String
+    - Nome: String
+    - turno: String
+    - Login: String
+    - Senha: String
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Instrutores {
+    - id_Instrutor: int
+    - Formacao: String
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Pagamentos {
+    - id_Pagamento: int
+    - status: String
+    - valor: double
+    - data_Pagamento: date
+    - id_Membro: String
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Membros {
+    - matricula: int
+    - dataMatricula: date
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Treino {
+    - idTreino: int
+    - data: date
+    - duracao: int
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class Exercicios {
+    - idExercicio: int
+    - nome: String
+    - descricao: String
+    - carga: double
+    - repeticao: int
+    - serie: int
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+class TreinoExercicio {
+    - id_Treino: int
+    - id_Exercicio: int
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+class Historico_Atividade {
+    - id_Historico: int
+    - id_Treino: int
+    - id_Membro
+    - Atividade: String
+    - Data: date
+    - Tempo_Execucao: String
+    + cadastrar()
+    + editar()
+    + excluir()
+    + consultar()
+    + listar()
+}
+
+Pessoas <|-- Funcionarios
+Funcionarios <|-- Instrutores
+Pessoas <|-- Membros
+
+Pagamentos "1" -up- "1..*" Membros: possui
+
+Funcionarios "1" -- "1" Pagamentos: cadastra
+Funcionarios "1" -up- "1" Historico_Atividade: consulta
+
+Instrutores "1" -- "1..*" Treino: cadastra
+Treino "1" -- "*" TreinoExercicio
+Exercicios "1" -- "*" TreinoExercicio
+
+@enduml
